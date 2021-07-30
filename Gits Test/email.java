@@ -14,7 +14,7 @@ class email{
         }
         else{
             String[] domain = emails[1].split("\\.",2);
-            if(domain[1].equals("com") || domain[1].equals("co.id")){
+            if(domain[1].equals("id") || domain[1].equals("co.id")){
                 System.out.println("email address valid");
             }
             else{
